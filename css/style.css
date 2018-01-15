@@ -71,7 +71,7 @@ header {
         top: 25%;
         transform: translateY(-50%);
         position: absolute;
-        margin-left: 55%;
+        left: 55%;
     }
     .tekst2 {
         visibility: hidden;
