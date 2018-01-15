@@ -8,12 +8,10 @@ body {
 }
 
 header {
-
     position: relative;
     margin: 0;
     color: rgb(255, 255, 255);
 }
-
 
 @media screen and (min-width: 1170px) {
     header {
@@ -30,18 +28,17 @@ header {
         font-weight: bold;
         margin: 0;
     }
+
     #second {
         font-size: 40px;
         font-weight: bolder;
     }
+
     .tekst {
         top: 50%;
         transform: translateY(-50%);
         position: absolute;
         margin-left: 30px;
-    }
-    .tekst2 {
-        visibility: hidden;
     }
 }
 
@@ -63,26 +60,25 @@ header {
         font-weight: bold;
         margin: 0;
     }
+
     #second {
         font-size: 30px;
         font-weight: bolder;
     }
+
     .tekst {
         top: 25%;
         transform: translateY(-50%);
         position: absolute;
         left: 55%;
     }
-    .tekst2 {
-        visibility: hidden;
-    }
 }
 
 @media screen and (max-width: 992px) {
-
     header {
- width: 100vw;
+        width: 100vw;
         height: 50vh;
+        position: relative;
         margin: 0;
         padding: 0;
         background-image: url(../img/man-1.jpg);
@@ -90,23 +86,25 @@ header {
         background-repeat: no-repeat;
         background-position: center;
     }
-    .tekst {
-        visibility: hidden;
-        color: rgb(0, 0, 0);
-    }
-    #first2 {
+
+    #first {
         font-size: 20px;
         font-weight: bold;
-        margin: 0;
+        color: black;
+        margin-top: 20px;
     }
-    #second2 {
+    
+    #second {
         font-size: 30px;
         font-weight: bolder;
+        color: black;
+        margin-top: 10px;
     }
-    .tekst2 {
+    
+    .tekst {
+        position: absolute;
+        top: 100%;
+        width: 100%;
         text-align: center;
-        margin-top: 20px;
-
-
     }
 }
